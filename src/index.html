@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.5/css/swiper.min.css" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+</head>
+
+<body>
+
+  <header>
+
+    @@include('./header.html')
+
+    @@include('./menu.html')
+
+  </header>
+
+  <main>
+
+    @@include('./stat.html')
+
+    @@include('./feedback.html')
+
+
+
+    <section class="half">
+      <div class="wrapper">
+
+        @@include('./psy-online.html')
+
+        @@include('./useful.html')
+
+      </div>
+    </section>
+
+    @@include('./questions.html')
+
+    @@include('./consultations.html')
+
+    @@include('./talk.html')
+
+    @@include('./intro-psy.html')
+
+    @@include('./feedback-bot.html')
+
+    @@include('./about.html')
+
+    @@include('./features.html')
+
+    <section class="get-consult">
+      <div class="wrapper">
+        <p>
+          Итак, Вам нужна <b>консультация психолога?</b> Не откладывайте решение
+          вопроса - начните решать проблему прямо сейчас
+        </p>
+        <a href="#" class="btn">Получите консультацию</a>
+      </div>
+    </section>
+  </main>
+
+  @@include('./footer.html')
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.5/js/swiper.js"></script>
+<script src="/static/js/script.js"></script>
+
+</html>

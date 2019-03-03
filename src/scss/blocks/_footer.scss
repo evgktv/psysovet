@@ -1,0 +1,128 @@
+.footer {
+  position: relative;
+  width: 100%;
+  padding-top: rem(22px);
+  padding-bottom: rem(16px);
+  background: #708cbb;
+
+  @media (min-width: $desktop) {
+
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  p {
+    text-align: center;
+    margin-top: rem(10px);
+    margin-bottom: 0;
+    color: #fff;
+    font-size: rem(12px);
+
+    @media (min-width: $tablet) {
+
+      text-align: left;
+      margin-top: rem(30px);
+    }
+
+    @media (min-width: $desktop) {
+
+      margin-top: rem(40px);
+    }
+  }
+}
+
+.footer__nav {
+  text-align: center;
+
+  @media (min-width: $tablet) {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop) {
+
+    width: 82%;
+  }
+
+  li {
+
+    margin-top: rem(8px);
+
+    @media (min-width: $tablet) {
+      margin: 0;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    a {
+      font-size: rem(14px);
+      color: #fff;
+      text-transform: uppercase;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    svg {
+      margin-left: rem(10px);
+    }
+  }
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  margin-top: rem(20px);
+
+  @media (min-width: $desktop) {
+
+    width: 14%;
+    margin-top: 0;
+  }
+
+  li {
+    position: relative;
+    width: rem(26px);
+    height: rem(26px);
+    margin-right: rem(8px);
+    border-radius: 50%;
+    background-color: #e6e6e6;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      position: absolute;
+      display: block;
+
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+      background-color: #fff;
+    }
+  }
+}
+
+.footer__copyright {
+  display: block;
+  margin-top: rem(10px);
+  padding-top: rem(10px);
+
+  color: #fff;
+  font-size: rem(14px);
+
+  border-top: rem(1px) solid #e1e1e1;
+}

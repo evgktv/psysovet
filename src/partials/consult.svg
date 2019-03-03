@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 29" width="35" height="29">
+	<defs>
+		<image width="35" height="29" id="consult" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAdCAMAAAAXdyW2AAAAAXNSR0IB2cksfwAAAa1QTFRFAAAAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiISAGGIwAAAI90Uk5TAES99/7bfwpz/+2nl83PDzazDVj9nqLyEJn8EdqySUVwQO+gMFtj8GAgJtXFsNDqM1fBVTsBbczSfgaMKbt339cZ3hQEr/U+7tmW4IB5vJg9m/sMco0ikbSosVO6+hic+K0VOtTzoygIhfZ7BTLxQskHg/QSN8saAh3Eb24JteseXF+QKwNUzuIq4+RI0UvGgUB+AAABf0lEQVR4nI3S91eCUBQH8FeReo2W2aJhGSVlu8yssEybWrb33ntnuyzb628OGQYcsL6/XO67nwP3vANCXGJi47B4jRZFiQ70CXgiJCWrkxRINTAlzZiubjIys9iaTeSomtw8ruaDqUCawogxF3GVhGKQpUQwloihSiUps5YrGNkWFZXCUxVvqqFG1VTWcrUO6tlqa7A3OpqkpploYUe0mR0gJ7S2AS41LnM78wJ3Nji53mr32Do6pQZ1dUNVjxF6bVzrZfbzgcwgd19qv39A6OJphAaHZGbYNDKK+2rG+HYcJiaxKbHxTM/M8rea65gLn2jnF4jFJZFZXoHVteL1DZvLtNkGW9s7zNnOLukR3Q9l3NMZIh/dPwBae3hkATjGTwRzSgTOxBd7rgH/hf7y6poG6w1vbu/cSBo/FgyG6z088GYrJCPoMTxjkgUFvAGf3LCzf5oncimaeaaEvLxSlLLxSn5XZfNG/iYBi7IPl5P3gLJxhITgH9jnn/t8faMfsJdN9zPXEGUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="статистика">
+		<g id="2">
+			<use id="icones-billing-all01" href="#consult" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>

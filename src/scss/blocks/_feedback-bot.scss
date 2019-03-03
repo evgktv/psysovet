@@ -1,0 +1,112 @@
+.feedback-bot {
+  position: relative;
+  width: 100%;
+  padding: rem(20px) 0;
+
+  @media (min-width: $tablet) {
+
+    padding: rem(38px) 0;
+  }
+  @media (min-width: $desktop) {
+
+    padding-bottom: rem(50px);
+  }
+
+  h2 {
+    text-align: left;
+  }
+}
+
+.feedback-bot__slider {
+  position: relative;
+  margin-top: rem(34px);
+}
+
+.feedback-bot__slider-button {
+  position: absolute;
+  content: "";
+  top: 50%;
+  margin: 0;
+  padding: 0;
+
+  width: rem(18px);
+  height: rem(86px);
+
+  background: transparent;
+
+  transform: translateY(-50%);
+
+  &:hover {
+
+    &::after,
+    &::before {
+      background: #ccc;
+    }
+  }
+
+  &::after,
+  &::before {
+    position: absolute;
+    content: "";
+
+    width: rem(1px);
+    height: rem(44px);
+
+    background: #e1e1e1;
+  }
+  
+  &--next {
+    right : 0;
+
+    &::after {
+      right: rem(6px);
+      transform: rotate(165deg);
+    }
+
+    &::before {
+      right: rem(6px);
+      top: 50%;
+      transform: rotate(15deg);
+    }
+  }
+  &--prev {
+    left : 0;
+
+    &::after {
+      left: rem(6px);
+      transform: rotate(-165deg);
+    }
+
+    &::before {
+      left: rem(6px);
+      top: 50%;
+      transform: rotate(-15deg);
+    }
+  }
+}
+
+.feedback-bot__item {
+  padding: 0 rem(28px);
+  // max-width: rem(320px);
+  width: 100%;
+
+  @media (min-width: $tablet) {
+
+      max-width: rem(320px);
+  }
+
+  @media (min-width: $desktop) {}
+
+  span {
+    display: block;
+    font-size: rem(14px);
+    font-weight: 600;
+    color: #214e9b;
+    text-align: right;
+  }
+}
+
+.feedback-bot__text {
+  margin-bottom: 0;
+  font-style: italic;
+}

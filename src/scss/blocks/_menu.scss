@@ -1,0 +1,65 @@
+.menu {
+  position: relative;
+  width: 100%;
+  background: $blue;
+}
+
+.menu__list {
+  padding: rem(20px) 0;
+  text-align: center;
+
+  @media (min-width: $tablet) {
+
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: $desktop) {}
+}
+
+.menu__item {
+  margin-top: rem(10px);
+
+  @media (min-width: $tablet) {
+
+    margin-top: 0;
+  }
+
+  &:first-child {
+    margin: 0;
+
+    @media (min-width: $tablet) {
+
+      margin-left: rem(60px);
+    }
+  }
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: rem(14px);
+    text-decoration: underline;
+
+    @media (min-width: $tablet) {
+
+      display: block;
+      padding: rem(10px) rem(16px);
+    }
+  }
+
+  &.active {
+
+    a {
+      cursor: default;
+      color: #214e9b;
+      text-decoration: none;
+
+      @media (min-width: $tablet) {
+
+        margin-top: 0;
+        background: #fff;
+      }
+    }
+  }
+}

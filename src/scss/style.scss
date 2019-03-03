@@ -1,0 +1,31 @@
+@import "variables";
+@import "normalize-scss/sass/normalize/import-now";
+@import "aos/dist/aos";
+
+@import "variables";
+
+// Common styles
+@import "fonts";
+@import "common";
+@import "scaffolding";
+
+// Blocks
+@import "blocks/header";
+@import "blocks/menu";
+@import "blocks/stat";
+@import "blocks/feedback";
+@import "blocks/psy";
+@import "blocks/question";
+@import "blocks/psy-online";
+@import "blocks/useful";
+@import "blocks/consultations";
+@import "blocks/talk";
+@import "blocks/intro-psy";
+@import "blocks/feedback-bot";
+@import "blocks/about";
+@import "blocks/features";
+@import "blocks/footer";
+
+
+// Responsive Styles
+@import "responsive";

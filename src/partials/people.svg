@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 30" width="37" height="30">
+	<defs>
+		<image width="37" height="30" id="people" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAeCAMAAACc/SdfAAAAAXNSR0IB2cksfwAAAU1QTFRFAAAAb4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7zsj9IwAAAG90Uk5TAES99/7bfwpz/+2nl83PDzazDVj9nqLyEJnasknzHe+gMPEi8C9C6jPQwVWM/CkBuwYZ3jsUdz7u2ZZ5vJg9DEVyjYBXBFO6+n4YPzrUo1soCIXX9nsFYMkJAwI3yxqC7LXrJEyQKyEtMTL1tCURI2Na1gAAAUxJREFUeJx9j1dTwkAURi+ihIsoxShFMNKx4CKKHUEwVuzYwF6w+/8fBUIwWe7kvHyzOyeZswAKph5zb59FAEOsaOu3D+Cgw0hyosvdmCFx2Mga8Xhb6zMLBgH+UWUDwTGDAGlc2VA4YhAQVS1zjAzgLDFOBbRJtK0kBogAlYlJZafQSQSoTKdmmsPS0iwRoJKR5uYBsj5coAI6LC5hYlnEFUYF/JNdda3l1umADvnCRtFe2oyQAQry1vYOKvh395o3+7qAFuUDDB4eHZ+wTOH0DCvnF3wANORLMWx1dz6JX2H6uuo2aQOgBjep2zttYc2CRcf9gy6AweNTVv9ayCWE5xd9AFReOQnqtjcuoApY4i2vra4PEGTKir5zAUBasRofQFieD5kPIKzgJ9MemwGUlewKIKwvp+5fUoh8Y6Vc1Rzz3z+MV7phvzL8AYuRO0LcZPp9AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="статистика">
+		<g id="4">
+			<use id="icones-billing-all01 копия 2" href="#people" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>

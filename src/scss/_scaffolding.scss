@@ -1,0 +1,126 @@
+.wrapper {
+  margin: 0 auto;
+  padding: 0 rem(20px);
+
+  @media (min-width: $tablet) {}
+
+  @media (min-width: $desktop) {
+    max-width: rem(1040px);
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: rem(280px);
+  height: rem(30px);
+  margin: 0 auto;
+  margin-top: rem(20px);
+
+  border-radius: rem(3px);
+  border: rem(1px) solid #5e5e5e;
+
+  color: #fff;
+  background: $btn-bg;
+
+  @media (min-width: $tablet) {
+
+    width: rem(360px);
+    height: rem(40px);
+    margin: 0;
+    margin-top: rem(20px);
+  }
+}
+
+.text {
+
+  &--xl {
+    font-size: rem(22px);
+    line-height: rem(30px);
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+
+    @media (min-width: $tablet) {
+
+      font-size: rem(28px);
+      line-height: rem(32px);
+    }
+
+    span {
+      color: #214e9b;
+    }
+  }
+
+  &--when {
+    font-size: rem(11px);
+    line-height: rem(18px);
+    color: #aaaaaa;
+    font-weight: 600;
+  
+    @media (min-width: $tablet) {
+  
+      font-size: rem(13px);
+      line-height: rem(20px);
+    }
+  }
+}
+
+.half {
+
+  @media (min-width: $desktop) {
+
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.get-consult {
+  position: relative;
+  width: 100%;
+  padding: rem(20px) 0;
+  background: #fff4e9;
+
+  @media (min-width: $tablet) {
+
+    padding: rem(38px) 0;
+  }
+
+  @media (min-width: $desktop) {
+
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  }
+
+  p {
+    font-size: rem(16px);
+    line-height: rem(24px);
+    margin: 0;
+
+    @media (min-width: $tablet) {
+
+      max-width: rem(654px);
+
+      font-size: rem(18px);
+      line-height: rem(28px);
+    }
+  }
+  .btn {
+    width: rem(261px);
+    height: rem(40px);
+
+    @media (min-width: $desktop) {
+
+      margin: 0;
+    } 
+  }
+}

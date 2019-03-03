@@ -1,0 +1,130 @@
+.intro-psy {
+  position: relative;
+  width: 100%;
+  padding: rem(20px) 0;
+  background: $question-bg;
+
+  h2 {
+    text-align: left;
+  }
+
+  @media (min-width: $tablet) {
+
+    padding: rem(38px) 0;
+  }
+
+  .psy__name {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .psy__main {
+    padding-left: 12px;
+    margin-bottom: rem(60px);
+  }
+  
+  .psy__prof {
+    font-size: rem(14px);
+    font-weight: 600;
+  }
+
+  .psy__stars {
+    svg {
+      margin-right: rem(6px);
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.intro-psy__intro {
+  font-style: italic;
+  margin-top: rem(20px);
+
+  @media (min-width: $tablet) {
+
+    margin-top: rem(28px);
+  }
+}
+
+.intro-psy__slider {
+  margin-top: rem(26px);
+}
+
+.intro-psy__item {
+  width: rem(165px) !important;
+  padding: rem(16px);
+  background: #fff;
+}
+
+.intro-psy__personal {
+  padding-bottom: rem(14px);
+
+  border-bottom: rem(1px) solid #e1e1e1;
+}
+
+.intro-psy__foto-box {
+  width: 100%;
+  height: rem(130px);
+  margin-bottom: rem(16px);
+
+  background: #e1e1e1;
+  overflow: hidden;
+}
+
+.intro-psy__foto {
+  display: block;
+  margin-left: rem(-90px);
+
+  &--2 {
+    margin-left: rem(-20px);
+    margin-top: rem(-20px);
+  }
+
+  &--3 {
+    margin: 0;
+  }
+
+  &--4 {
+    margin-left: rem(-225);
+    margin-top: rem(-20px);
+  }
+
+  &--5 {
+    margin-left: rem(-50);
+  }
+}
+
+.intro-psy__personal-feedback {
+  display: inline-block;
+  margin-top: rem(14px);
+
+  vertical-align: top;
+  color: #214e9b;
+  font-size: rem(14px);
+  font-weight: 600;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.intro-psy__all {
+  margin-top: rem(32px);
+  text-align: center;
+
+  a {
+    color: #214e9b;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

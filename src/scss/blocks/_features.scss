@@ -1,0 +1,49 @@
+.features {
+  position: relative;
+  width: 100%;
+  padding: rem(20px) 0;
+
+  @media (min-width: $tablet) {
+
+    padding: rem(38px) 0;
+  }
+
+
+  h2 {
+    text-align: left;
+  }
+
+  ul {
+
+    margin-top: rem(24px);
+
+    li {
+      position: relative;
+      padding-left:rem(40px);
+      margin-top: rem(14px);
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &::before {
+        position: absolute;
+        content: "";
+
+        width: rem(5px);
+        height: rem(5px);
+        border-radius: 50%;
+
+        left: rem(18px);
+        top: rem(6px);
+
+        background: #214e9b;
+
+        @media (min-width: $tablet) {
+
+          top: rem(8px);
+        }
+      }
+    }
+  }
+}

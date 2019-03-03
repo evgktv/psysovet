@@ -1,0 +1,92 @@
+.psy {
+  font-weight: 600;
+
+  @media (min-width: $tablet) {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.psy__person {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.psy__name {
+  position: relative;
+  color: #cc3399;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.online::before {
+    position: absolute;
+    content: "";
+
+    width: rem(5px);
+    height: rem(5px);
+    left: rem(-10px);
+    top: rem(7px);
+
+    border-radius: 50%;
+    background-color: #4caf50;
+
+    @media (min-width: $tablet) {
+
+      top: rem(9px);
+    }
+  }
+}
+
+.psy__foto-box {
+  width: rem(55px);
+  height: rem(55px);
+  border-radius: 50%;
+  background: #e1e1e1;
+  overflow: hidden;
+}
+
+.psy__foto {
+  display: block;
+  margin-left: rem(-4px);
+}
+
+.psy__main {
+  width: calc(100% - 55px);
+  position: relative;
+  padding-left: rem(20px);
+  
+  span {
+    display: block;
+    margin-top: rem(6px);
+
+    @media (min-width: $tablet) {
+
+      margin-top: rem(10px);
+    }
+  }
+}
+
+.psy__work {
+  display: flex;
+  align-items: center;
+
+  @media (min-width: $tablet) {
+
+    flex-direction: column;
+  }
+}
+
+.psy__stage {
+  margin-right: rem(20px);
+
+  @media (min-width: $tablet) {
+
+    margin-right: 0;
+    margin-bottom: rem(10px);
+  }
+}

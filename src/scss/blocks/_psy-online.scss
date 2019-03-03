@@ -1,0 +1,59 @@
+.psy-online {
+  position: relative;
+  width: 100%;
+  padding: rem(20px) 0;
+
+
+  @media (min-width: $tablet) {
+
+    padding: rem(38px) 0;
+  }
+
+  @media (min-width: $desktop) {
+
+    width: 60%;
+
+    h2 {
+      text-align: left;
+    }
+  }
+}
+
+.psy-online__list {
+  margin-top: rem(20px);
+
+  @media (min-width: $tablet) {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    max-height: rem(400px);
+
+    overflow-y: auto;
+  }
+
+  .psy {
+    margin-top: rem(20px);
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    @media (min-width: $tablet) {
+      width: 48%;
+
+      &:nth-child(2),
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.psy-online__info {
+  display: inline-block;
+  margin-top: rem(20px);
+  font-weight: 600;
+  vertical-align: top;
+}

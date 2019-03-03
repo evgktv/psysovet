@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 42" width="38" height="42">
+	<defs>
+		<image width="40" height="40" id="all" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAuVJREFUeNrsWNFt2zAQVQQNoE4QjaB2AdsDFHEmsD2B7QmiTGB5AksTREYHsLxAom6gEdgJ2mPxCBAsKZ5kKclHDzgISkTy8d27O9JB8N9us7tbJ/j2fZXQI4XbrCFvX3+UzbsBBKgt+ZI8YQ4T5DX5mcAWkwAkYDE9nsh3GjtnLNzQwsLyvWJ3Rj4njwH2SN9nowHEYhcsVpHvaYF2APtreqwAVo5/7Ap/OADchiZ8lOGlv+9s4SfPMMb8n5SEoPELOQ/YfAPo4QDJTho4pZ8HuGkJZGBLmi08wDxfIZOTC2TIYG+OZMj7iJtjkMgCIA9Ivt4MrvB89m2E/DekIO0i38lTD0ihhfs0BKCkvjAztMMKbEaxHTOYbDBmbm4oZIQ3QCnhWonyUfaMeKHplM3gXKt3XLsYoe6jx1pb869FPQb7TIXpXsmC/GfPzV37ApyhmHI2ITWaQRZrhLqGVA56v6Z3ye7V0kkaJS01lsNgO0JFUeAa7d3Vr4O+IY5HKnsNOohikGURg721kdkvKNzqXSZEhfbXyaIGLHVo85+kjDz9d4mDgcloq5WRFYPlqxHaxlGG7tGrBYfBJRa2TdQqgdNGZowEyvTQqlA71qy5Id4CSGULBUKrrB7hZK4IOXsBolSkjv57RMhUjy571rouQoQpqchzQMgt4ZITVCq0nFMx88Qk/dns+ZEjOTgHhKOno9hYLW21DudHYSPkzgJQnpJl5V+oaj6lQXsvYC/jHLcekByTg4MdXOy5NCg/TrQslXXpy0TsrXFF2LjkZAO4QZbG2lVxKlOlrGC3Ouwkxw6zqQDi5Cx93/VdGHycpZwi7wPYGEf/MS3R7iODAYrggy0MPrl9eoARM8Ty1i8Mbf7S6mR+QzbHXS01ZFyoc4sWd+ifT+gEQ6z23E94dxICufd0AvnDTzrgF9RWA1hPpcFWLxkDLuoC3WqaJNEOFOnAKSpfpxoji1sfC57LVNzVCP4IMAAtpT8nD2ZJ1QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="вопросы">
+		<g id="сексология копия">
+			<use id="e24c44ba41bf1d0265e4c14a337913ad" href="#all" transform="matrix(1.1,0,0,1.1,-4,-2)"/>
+		</g>
+	</g>
+</svg>

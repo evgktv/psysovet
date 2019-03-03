@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 14" width="7" height="14">
+	<defs>
+		<image width="126" height="248" id="fb" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAD4CAMAAAAdFKJ/AAAAAXNSR0IB2cksfwAAAbxQTFRFAAAAb4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7b4u7hMGwtgAAAJR0Uk5TAAQlTXKXtMjc8P/6zFAoZ5vR+2YRWqTo8gwPY738QQFAqvkJaNd15+lIFaVZ7AudLNVP83D+h5GBPRoCvvi3TmDAJ4jYKXSz7lF9nDy5B8/f/eDbrTaVUiAD6mEFw9oK9R+GHYDNb5Og0JlqDQjhii83GN3Bo0ote18ky5BzVTgZwmlLLta4mjv2PxLkgkOJ9GvUV/nhKHwAAALYSURBVHic7d1nU1NBFMbxTRTBBEURpSlRjBiTWBBFJQgKFrAgIiJ2RbEgYm8oKvYu6hc2GJ3hhSR7z56d583z/wD7mySzc2fO7p0Yo1goPGdu0bzikvkRi6KlCxTphWWLFpfbsDNaokNXLF1WGVD+U1W1u11Tu3yFxJ6uztGOrVxVL7Wzuf36q+NrHGxHvrphrRvuwofiCVfcgV/n+LU78cmUBi7l0+t1dBG/YaMSLuI3NarpAn5zk54enN+yVVEPzDdr4kH5WJGuHpDfpqwH47dr64H4WnU9CL8jiuRbFB5wcj7T6kG35xt86NZ8eCeUb/Oi2/LtfnRLPlQC5Xd50u14bx/ejk/70u343VC+w5tuxXdi+T1Qfq8/3Ybfh+X3Q/lMF5QPe9Qt+G4sfwDLH/TJHyrIH/aoJ3oK8kf86eUW277XjTja1TdLx/qPF9aNw7ZPDJwYPGlB5MtqOP6/Tp0+40hPJxpVZzubVMCNOSfTi8+r6KZUpF+4qKML9/2Qkm5k45xLWvxliT6spcv4ASx/BcunsbzeASF58uTJkydPnjx58uTJB+Uz3Vev5em6hG/Nt+LfRm6MZvWbPueG+RvrMOYWTI9EhmPGx60A624bpB5px/J3sPxdKB+NQfl7Bsrfx/IPsPwQlo9j+YdY/hGWr4HyVQbKN2L5Niw/guUfY/knWL4Oy49j+R4oX2mg/FMs34/ln2H5CSz/HMu/wPIvoXw0A+V7DZSfxPIpLN+M5V9h+ddY/g2Wr4DyTQbKv8Xy73K8+PVtx97n+EkQP5HjP3h40cyij//utH0STewdq59xrerz4Ox9Ea1e6Djh67jlWUefiFc7yyFPnjx58uTJkydPnjx58uTJkydPnjx58uTJkydPnjx58uTJkydPnjx58uTJkydPnjx58uTJkydPnjx58uTtkv15wDct/rtEnxrV4pNjAv6Hlm5MS2oqIP7zl/3qvwHFRlfUudWOcwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="подвал">
+		<g id="соц сети">
+			<use id="facebook" href="#fb" transform="matrix(0.056,0,0,0.056,0,0)"/>
+		</g>
+	</g>
+</svg>

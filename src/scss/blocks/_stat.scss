@@ -1,0 +1,110 @@
+.stat {
+  position: relative;
+  padding: rem(20px);
+  border-bottom: rem(1px) solid #e1e1e1;
+
+  @media (min-width: $desktop) {
+    padding: rem(44px) 0;
+  }
+}
+
+.stat__list {
+
+  @media (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.stat__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+  margin-top: rem(20px);
+
+  @media (min-width: $tablet) {
+    
+    width: rem(354px);
+    margin-top: rem(40px);
+    justify-content: flex-start;
+  }
+
+  @media (min-width: $desktop) {
+    
+    width: 25%;
+    margin-top: 0;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: "";
+
+      width: rem(1px);
+      height: rem(70px);
+      right: rem(24px);
+      bottom: rem(-46px);
+      background-color: #e1e1e1;
+    }
+
+    &:nth-child(3) {
+      width: 31%;
+    }
+    &:nth-child(4) {
+      width: 19%;
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &:first-child {
+    margin-top: 0;
+
+    @media (min-width: $tablet) {
+    
+      margin-top: rem(40px);
+    }
+    @media (min-width: $desktop) {
+    
+      margin-top: 0;
+    }
+  }
+
+  svg {
+
+    margin-left: rem(20px);
+
+    @media (min-width: $tablet) {
+      
+      margin-left: rem(30px);
+    }
+  }
+}
+
+.stat__percent {
+  font-size: rem(28px);
+  color: $blue;
+
+  @media (min-width: $tablet) {
+
+    font-size: rem(36px);
+  }
+}
+
+.stat__name {
+  width: 50%;
+  margin-left: rem(20px);
+  text-align: left;
+  color: #767676;
+
+  @media (min-width: $tablet) {
+    width: 100%;
+    margin: 0;
+    margin-top: rem(8px);
+  }
+}

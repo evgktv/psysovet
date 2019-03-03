@@ -1,0 +1,32 @@
+$main-txt: #5e5e5e;
+$main-bg: #fff;
+$header-bg: linear-gradient(#d4d8df 0%, #e9edf3 100%);
+$feedback-bg: #fafafa;
+$question-bg: #e9eef6;
+
+$btn-bg: #73ad58;
+
+$blue: #708cbb;
+
+$base-font: 16;
+
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@function rem($num) {
+  @return strip-unit($num) / $base-font * 1rem;
+}
+
+@mixin button-reset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+}
+
+$tablet: rem(768px);
+$desktop: rem(961px);

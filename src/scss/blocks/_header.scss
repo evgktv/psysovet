@@ -1,0 +1,155 @@
+.header {
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $tablet) {}
+
+  @media (min-width: $desktop) {}
+
+  textarea {
+    max-width: rem(460px);
+    margin-top: rem(20px);
+    padding: rem(10px);
+    
+    resize: none;
+    border: none;
+    background: #fff;
+    border-radius: rem(4px);
+
+    &:focus,
+    &:active {
+      outline: rem(1px) solid #5e5e5e;
+    }
+
+    @media (min-width: $tablet) {
+
+      padding: rem(16px)
+    }
+
+    @media (min-width: $desktop) {
+     
+      max-width: 100%;
+      width: 100%;
+      margin-top: rem(16px)
+    }
+  }
+}
+
+.header__head {
+  padding: rem(10px) 0;
+  height: rem(55px);
+
+  svg {
+    width: rem(200px);
+    height: auto;
+  }
+
+  @media (min-width: $tablet) {
+
+    padding: rem(11px) 0;
+    height: rem(76px);
+
+    svg {
+      width: rem(305px);
+      height: auto;
+    }
+  }
+}
+
+.header__main {
+  background: $header-bg;
+}
+
+.header__wrapper {
+
+  @media (min-width: $tablet) {
+
+    display: flex;
+    min-height: rem(420px);
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: $desktop) {
+  }
+}
+
+.header__foto-box {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: rem(428px);
+
+  @media (min-width: $tablet) {
+    width: 40%;
+  }
+
+  @media (min-width: $desktop) {
+  }
+}
+
+.header__foto {
+  display: inline-block;
+  margin-top: rem(20px);
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+
+  @media (min-width: $tablet) {
+
+    position: absolute;
+    bottom: 0;
+    left: rem(-20px);
+  }
+}
+
+.header__info {
+  margin-top: rem(40px);
+  padding-bottom: rem(20px);
+
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet) {
+    
+    margin-top: rem(20px);
+    width: 60%;
+  }
+
+  @media (min-width: $desktop) {
+    
+    margin-top: rem(56px);
+    padding-left: rem(10px);
+    padding-bottom: rem(40px);
+  }
+}
+
+.header__title {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+
+  @media (min-width: $tablet) {
+
+    font-size: 24px;
+  }
+
+  @media (min-width: $desktop) {}
+}
+
+.header__description {
+  font-style: italic;
+
+  @media (min-width: $desktop) {
+
+    margin-top: rem(12px);
+  }
+
+  &--black {
+    color: #000;
+
+    @media (min-width: $desktop) {
+
+      margin-top: rem(20px);
+    }
+  }
+}
